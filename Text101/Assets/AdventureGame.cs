@@ -8,7 +8,7 @@ public class AdventureGame : MonoBehaviour
 {
     [SerializeField] private Text textComponent;
     [SerializeField] private State startingState;
-
+    
     private State state;
     
     // Start is called before the first frame update
