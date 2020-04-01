@@ -15,12 +15,34 @@ public class AdventureGame : MonoBehaviour
     void Start()
     {
         state = startingState;
-        textComponent.text = startingState.StoryText;
+        textComponent.text = state.StoryText;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        ManageState();
+    }
+
+    private void ManageState()
+    {
+        var nextState = state.NextStates;
+        if (nextState.Length > 0 && Input.GetKeyDown(KeyCode.Alpha1))
+        {
+            state = nextState[0];
+        }
+        else if (nextState.Length > 1 && Input.GetKeyDown(KeyCode.Alpha2))
+        {
+            state = nextState[1];
+        }
+        else if (nextState.Length > 2 && Input.GetKeyDown(KeyCode.Alpha3))
+        {
+            state = nextState[2];
+        }
+        else
+        {
+            Debug.Log("Unmanaged key pressed");
+        }
+        textComponent.text = state.StoryText;
     }
 }

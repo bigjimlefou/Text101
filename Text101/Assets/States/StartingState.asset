@@ -32,4 +32,6 @@ MonoBehaviour:
 
     2. Inspect
     environment to find the flaw?'
-  nextStates: []
+  nextStates:
+  - {fileID: 11400000, guid: 0979b3a80b3b4c84393bf48b0f55d115, type: 2}
+  - {fileID: 11400000, guid: adabacbb7edd96f42849e9a9311e0e03, type: 2}

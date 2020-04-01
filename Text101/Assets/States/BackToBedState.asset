@@ -15,5 +15,15 @@ MonoBehaviour:
   storyText: '[Start Room]
 
 
-    Waited hours in the without anything happened'
-  nextStates: []
+    Waited hours in the without anything happened.
+
+
+    What
+    should i do?
+
+    1. Stay in bed.
+
+    2. Get up.'
+  nextStates:
+  - {fileID: 11400000}
+  - {fileID: 11400000, guid: 098e8882debf0dd4792e3396e15ce49e, type: 2}
