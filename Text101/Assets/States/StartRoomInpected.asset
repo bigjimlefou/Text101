@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: StartRoomInpected
   m_EditorClassIdentifier: 
   storyText: "[Start Room]\n\nAfter inspecting the whole room, one \rtiles seem to
-    move"
+    move\n\nWhat should I do?\r\n1. Go back to bed.\r"
   nextStates:
   - {fileID: 11400000, guid: adabacbb7edd96f42849e9a9311e0e03, type: 2}
