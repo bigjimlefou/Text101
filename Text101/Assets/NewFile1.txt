@@ -1,0 +1,7 @@
+﻿I'm alone in my room, trap in the ceiling has just been locked. There is no other way out.
+
+I can go back to bed and wait for something to happen. Or I could try to inspect the room for anything special?
+
+What should I do?
+1. Go back to bed.
+2. Inspect environment to find the flaw?
