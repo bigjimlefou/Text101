@@ -10,20 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5e63930f6ddef394b86f20d6be42bf77, type: 3}
-  m_Name: BackToBedState
+  m_Name: A1.StartRoomInpected
   m_EditorClassIdentifier: 
-  storyText: '[Start Room]
-
-
-    Waited hours in the bed without anything happening.
-
-
-    What
-    should i do?
-
-    1. Stay in bed.
-
-    2. Get up.'
+  storyText: "[Start Room]\n\nAfter inspecting the whole room, one \rtiles seem to
+    move\n\nWhat should I do?\r\n1. Go back to bed.\r"
   nextStates:
-  - {fileID: 11400000}
-  - {fileID: 11400000, guid: 098e8882debf0dd4792e3396e15ce49e, type: 2}
+  - {fileID: 11400000, guid: adabacbb7edd96f42849e9a9311e0e03, type: 2}

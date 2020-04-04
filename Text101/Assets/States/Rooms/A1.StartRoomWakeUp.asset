@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5e63930f6ddef394b86f20d6be42bf77, type: 3}
-  m_Name: StartingState
+  m_Name: A1.StartRoomWakeUp
   m_EditorClassIdentifier: 
   storyText: '[Start Room]
 
@@ -18,20 +18,20 @@ MonoBehaviour:
     I''m alone in my room, trap in the ceiling has just
     been locked. There is no other way out.
 
-    
 
-    I can go back to bed and
-    wait for something to happen. Or I could try to inspect the room for anything
-    special?
 
-    
+    I can go back to bed and wait
+    for something to happen. Or I could try to inspect the room for anything special?
 
-    What should I do?
+
+
+    What
+    should I do?
 
     1. Go back to bed.
 
-    2. Inspect
-    environment to find the flaw?'
+    2. Inspect environment to find the
+    flaw?'
   nextStates:
   - {fileID: 11400000, guid: 0979b3a80b3b4c84393bf48b0f55d115, type: 2}
   - {fileID: 11400000, guid: adabacbb7edd96f42849e9a9311e0e03, type: 2}
