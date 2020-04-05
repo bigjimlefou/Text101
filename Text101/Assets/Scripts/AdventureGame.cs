@@ -27,27 +27,17 @@ public class AdventureGame : MonoBehaviour
 
     private void ManageState()
     {
-        if (Input.anyKey)
+        if (Input.anyKeyDown)
         {
-            var nextState = state.NextStates;
-            if (nextState.Length > 0 && Input.GetKeyDown(KeyCode.Alpha1))
+            var nextStates = state.NextStates;
+
+            for (int i = 0; i < nextStates.Length; i++)
             {
-                state = nextState[0];
-                movesCounter++;
-            }
-            else if (nextState.Length > 1 && Input.GetKeyDown(KeyCode.Alpha2))
-            {
-                state = nextState[1];
-                movesCounter++;
-            }
-            else if (nextState.Length > 2 && Input.GetKeyDown(KeyCode.Alpha3))
-            {
-                state = nextState[2];
-                movesCounter++;
-            }
-            else
-            {
-                Debug.Log("Unmanaged key pressed");
+                if (Input.GetKeyDown(KeyCode.Alpha1 + i))
+                {
+                    state = nextStates[i];
+                    movesCounter++;
+                }
             }
 
             if (movesCounter >= movesCountMax)
